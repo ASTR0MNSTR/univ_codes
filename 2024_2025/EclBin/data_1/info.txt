@@ -1,0 +1,3 @@
+Period: 0.6289294 days
+B-V:	+0.47
+Johnson V Magnitude: +9.03
