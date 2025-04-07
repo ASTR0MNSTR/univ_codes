@@ -1,0 +1,3 @@
+Johnson V Magnitude: +10.535
+Color Indices:	B-V:	+0.491
+Period: 0.5559864 days
