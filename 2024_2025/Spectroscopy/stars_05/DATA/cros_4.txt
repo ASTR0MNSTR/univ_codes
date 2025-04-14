@@ -1,0 +1,145 @@
+#K IRAF       = NOAO/IRAF Debian 2.16.1+2018.1 version   
+#K USER       = student                        name      
+#K HOST       = poli                           computer  
+#K DATE       = 2025-04-07                     yyyy-mm-dd
+#K TIME       = 10:11:56                       hh:mm:ss  
+#K PACKAGE    = rv                             name      
+#K TASK       = fxcor                          name      
+# 
+#T Template ' A' -- Object = '32Vul_K5III'                                   \*
+#                   Image  = '32Vul_K5III.fits'                Vhelio = INDEF
+#T Template ' B' -- Object = 'HD116842_A5V'                                  \*
+#                   Image  = 'HD116842_A5V.fits'               Vhelio = INDEF
+#T Template ' C' -- Object = 'HD120315_B3V'                                  \*
+#                   Image  = 'HD120315_B3V.fits'               Vhelio = INDEF
+#T Template ' D' -- Object = 'HD122408_A3V'                                  \*
+#                   Image  = 'HD122408_A3V.fits'               Vhelio = INDEF
+#T Template ' E' -- Object = 'HD130109_A0III'                                \*
+#                   Image  = 'HD130109_A0III.fits'             Vhelio = INDEF
+#T Template ' F' -- Object = 'HD137391_F0IV'                                 \*
+#                   Image  = 'HD137391_F0IV.fits'              Vhelio = INDEF
+#T Template ' G' -- Object = 'HD142574_M0'                                   \*
+#                   Image  = 'HD142574_M0.fits'                Vhelio = INDEF
+#T Template ' H' -- Object = 'HD144206_B9IV'                                 \*
+#                   Image  = 'HD144206_B9IV.fits'              Vhelio = INDEF
+#T Template ' I' -- Object = 'HD145675_K0V'                                  \*
+#                   Image  = 'HD145675_K0V.fits'               Vhelio = INDEF
+#T Template ' J' -- Object = 'HD148783_M6III'                                \*
+#                   Image  = 'HD148783_M6III.fits'             Vhelio = INDEF
+#T Template ' K' -- Object = 'HD153751_G5III'                                \*
+#                   Image  = 'HD153751_G5III.fits'             Vhelio = INDEF
+#T Template ' L' -- Object = 'HD154143_M3III'                                \*
+#                   Image  = 'HD154143_M3III.fits'             Vhelio = INDEF
+#T Template ' M' -- Object = 'HD158899_K3.5III'                              \*
+#                   Image  = 'HD158899_K3.5III.fits'           Vhelio = INDEF
+#T Template ' N' -- Object = 'HD160269_G0V'                                  \*
+#                   Image  = 'HD160269_G0V.fits'               Vhelio = INDEF
+#T Template ' O' -- Object = 'HD188001_O8I'                                  \*
+#                   Image  = 'HD188001_O8I.fits'               Vhelio = INDEF
+#T Template ' P' -- Object = 'HD188209_O9.5Iab'                              \*
+#                   Image  = 'HD188209_O9.5Iab.fits'           Vhelio = INDEF
+#T Template ' Q' -- Object = 'HD196610_M6III'                                \*
+#                   Image  = 'HD196610_M6III.fits'             Vhelio = INDEF
+#T Template ' R' -- Object = 'HD196755_G2IV'                                 \*
+#                   Image  = 'HD196755_G2IV.fits'              Vhelio = INDEF
+#T Template ' S' -- Object = 'HD196867_B9IV'                                 \*
+#                   Image  = 'HD196867_B9IV.fits'              Vhelio = INDEF
+#T Template ' T' -- Object = 'HD198550_K4V'                                  \*
+#                   Image  = 'HD198550_K4V.fits'               Vhelio = INDEF
+#T Template ' U' -- Object = 'HD217143_G9III'                                \*
+#                   Image  = 'HD217143_G9III.fits'             Vhelio = INDEF
+#T Template ' V' -- Object = 'HD223486_F0V'                                  \*
+#                   Image  = 'HD223486_F0V.fits'               Vhelio = INDEF
+#T Template ' W' -- Object = 'HD31767_K2IIb'                                 \*
+#                   Image  = 'HD31767_K2IIb.fits'              Vhelio = INDEF
+#T Template ' X' -- Object = 'HD4758_A9III'                                  \*
+#                   Image  = 'HD4758_A9III.fits'               Vhelio = INDEF
+#T Template ' Y' -- Object = 'HD6301_F7IV'                                   \*
+#                   Image  = 'HD6301_F7IV.fits'                Vhelio = INDEF
+#T Template ' Z' -- Object = 'HD6680_F3IV'                                   \*
+#                   Image  = 'HD6680_F3IV.fits'                Vhelio = INDEF
+#T Template 'AA' -- Object = 'HD886_B2IV'                                    \*
+#                   Image  = 'HD886_B2IV.fits'                 Vhelio = INDEF
+#T Template 'AB' -- Object = 'SF10_G6'                                       \*
+#                   Image  = 'SF10_G6.fits'                    Vhelio = INDEF
+#T Template 'AC' -- Object = 'SF11_F5'                                       \*
+#                   Image  = 'SF11_F5.fits'                    Vhelio = INDEF
+#T Template 'AD' -- Object = 'SF12_G5'                                       \*
+#                   Image  = 'SF12_G5.fits'                    Vhelio = INDEF
+#T Template 'AE' -- Object = 'SF13_F6'                                       \*
+#                   Image  = 'SF13_F6.fits'                    Vhelio = INDEF
+#T Template 'AF' -- Object = 'SF16_K3'                                       \*
+#                   Image  = 'SF16_K3.fits'                    Vhelio = INDEF
+#T Template 'AG' -- Object = 'SF18_G0'                                       \*
+#                   Image  = 'SF18_G0.fits'                    Vhelio = INDEF
+#T Template 'AH' -- Object = 'SF21_F8'                                       \*
+#                   Image  = 'SF21_F8.fits'                    Vhelio = INDEF
+#T Template 'AI' -- Object = 'SF24_G4'                                       \*
+#                   Image  = 'SF24_G4.fits'                    Vhelio = INDEF
+#T Template 'AJ' -- Object = 'SF25_G3'                                       \*
+#                   Image  = 'SF25_G3.fits'                    Vhelio = INDEF
+#T Template 'AK' -- Object = 'SF27_F7'                                       \*
+#                   Image  = 'SF27_F7.fits'                    Vhelio = INDEF
+#T Template 'AL' -- Object = 'SF28_F8'                                       \*
+#                   Image  = 'SF28_F8.fits'                    Vhelio = INDEF
+#T Template 'AM' -- Object = 'SF29_G4'                                       \*
+#                   Image  = 'SF29_G4.fits'                    Vhelio = INDEF
+#T Template 'AN' -- Object = 'SF4_G9'                                        \*
+#                   Image  = 'SF4_G9.fits'                     Vhelio = INDEF
+#T Template 'AO' -- Object = 'SF7_F7'                                        \*
+#                   Image  = 'SF7_F7.fits'                     Vhelio = INDEF
+#T Template 'AP' -- Object = 'XiHer_G8III'                                   \*
+#                   Image  = 'XiHer_G8III.fits'                Vhelio = INDEF
+# 
+#  Velocity Dispersion = 55.15 Km/sec/pixel     Rebinned WPC = 7.98960E-5
+# 
+#N OBJECT        IMAGE     REF   HJD       AP    CODES     SHIFT   HGHT FWHM    TDR    VOBS      VREL       VHELIO     VERR
+#U name          image           days            cfr/fun   pixel                       km/s      km/s       km/s       km/s
+#
+#  Velocity Dispersion = 55.15 Km/sec/pixel     Rebinned WPC = 7.98960E-5
+star4            star4.fits  A  INDEF       1    BNS/gau   0.401   0.33 506.21  4.77   INDEF     22.1428    INDEF      68.914 
+#  Velocity Dispersion = 54.38 Km/sec/pixel     Rebinned WPC = 7.87776E-5
+star4            star4.fits  B  INDEF       1    BNS/gau   1.549   0.74 1133.99 15.16  INDEF     84.2669    INDEF      55.114 
+#  Velocity Dispersion = 54.37 Km/sec/pixel     Rebinned WPC = 7.87574E-5
+star4            star4.fits  C  INDEF       1    BNS/gau   0.230   0.52 1587.26 7.93   INDEF     12.5164    INDEF      139.574
+star4            star4.fits  D  INDEF       1    BNS/gau   -1.188  0.61 1137.22 8.50   INDEF     -64.5914   INDEF      94.043 
+star4            star4.fits  E  INDEF       1    BNS/gau   -0.733  0.56 1403.78 7.81   INDEF     -39.8456   INDEF      125.111
+#  Velocity Dispersion = 54.36 Km/sec/pixel     Rebinned WPC = 7.87464E-5
+star4            star4.fits  F  INDEF       1    BNS/gau   1.618   0.75 878.54  16.33  INDEF     87.9606    INDEF      39.825 
+star4            star4.fits  G  INDEF       1    BNS/gau   694.914 0.19 2090.98 1.38   INDEF     40257.457  INDEF      689.923
+star4            star4.fits  H  INDEF       1    BNS/gau   -1.312  0.49 1278.07 6.52   INDEF     -71.2865   INDEF      133.506
+star4            star4.fits  I  INDEF       1    BNS/gau   -0.719  0.42 528.12  7.60   INDEF     -39.0827   INDEF      48.236 
+star4            star4.fits  J  INDEF       1    BNS/gau   -189.77 0.28 4753.56 3.04   INDEF     -10140.30  INDEF      924.604
+star4            star4.fits  K  INDEF       1    BNS/gau   1.629   0.54 587.53  12.30  INDEF     88.5830    INDEF      34.690 
+star4            star4.fits  L  INDEF       1    BNS/gau   -248.51 0.23 2140.60 2.57   INDEF     -13208.71  INDEF      471.302
+star4            star4.fits  M  INDEF       1    BNS/gau   -0.181  0.26 433.81  4.48   INDEF     -9.8656    INDEF      62.223 
+star4            star4.fits  N  INDEF       1    BNS/gau   -0.350  0.48 579.00  6.75   INDEF     -19.0333   INDEF      58.671 
+star4            star4.fits  O  INDEF       1    BNS/gau   INDEF   INDEF INDEF   INDEF  INDEF     INDEF      INDEF      INDEF  
+star4            star4.fits  P  INDEF       1    BNS/gau   1060.98 0.24 1613.28 2.09   INDEF      0.21213     INDEF      410.250
+star4            star4.fits  Q  INDEF       1    BNS/gau   715.910 0.24 2541.30 2.16   INDEF     41554.504  INDEF      630.869
+star4            star4.fits  R  INDEF       1    BNS/gau   0.210   0.74 757.87  18.62  INDEF     11.4352    INDEF      30.336 
+star4            star4.fits  S  INDEF       1    BNS/gau   -0.563  0.62 1482.05 5.41   INDEF     -30.6283   INDEF      181.670
+star4            star4.fits  T  INDEF       1    BNS/gau   0.253   0.32 498.98  3.41   INDEF     13.7456    INDEF      88.948 
+star4            star4.fits  U  INDEF       1    BNS/gau   1.177   0.50 587.14  7.18   INDEF     64.0116    INDEF      56.366 
+star4            star4.fits  V  INDEF       1    BNS/gau   0.959   0.89 1026.08 27.65  INDEF     52.1608    INDEF      28.124 
+star4            star4.fits  W  INDEF       1    BNS/gau   0.560   0.42 528.36  6.16   INDEF     30.4351    INDEF      57.957 
+star4            star4.fits  X  INDEF       1    BNS/gau   0.703   0.87 938.81  19.82  INDEF     38.2290    INDEF      35.414 
+star4            star4.fits  Y  INDEF       1    BNS/gau   0.568   0.88 908.46  40.98  INDEF     30.8965    INDEF      16.998 
+star4            star4.fits  Z  INDEF       1    BNS/gau   0.000   0.92 969.15  582.99 INDEF     0.0191     INDEF      1.303  
+star4            star4.fits AA  INDEF       1    BNS/gau   2.558   0.53 1434.57 6.50   INDEF     139.1044   INDEF      150.196
+star4            star4.fits AB  INDEF       1    BNS/gau   4.491   0.46 609.21  7.27   INDEF     244.2305   INDEF      57.823 
+star4            star4.fits AC  INDEF       1    BNS/gau   1.671   0.89 936.80  16.61  INDEF     90.8428    INDEF      41.787 
+star4            star4.fits AD  INDEF       1    BNS/gau   -0.007  0.62 708.42  11.71  INDEF     -0.3863    INDEF      43.782 
+star4            star4.fits AE  INDEF       1    BNS/gau   -1.097  0.88 930.61  15.28  INDEF     -59.6152   INDEF      44.907 
+star4            star4.fits AF  INDEF       1    BNS/gau   594.882 0.26 1151.08 2.53   INDEF     34145.258  INDEF      256.168
+star4            star4.fits AG  INDEF       1    BNS/gau   3.601   0.82 839.57  23.90  INDEF     195.8200   INDEF      26.481 
+star4            star4.fits AH  INDEF       1    BNS/gau   2.105   0.88 919.83  22.50  INDEF     114.4575   INDEF      30.737 
+star4            star4.fits AI  INDEF       1    BNS/gau   3.682   0.75 826.91  15.70  INDEF     200.2190   INDEF      38.897 
+star4            star4.fits AJ  INDEF       1    BNS/gau   4.365   0.78 829.41  20.22  INDEF     237.3883   INDEF      30.702 
+star4            star4.fits AK  INDEF       1    BNS/gau   1.945   0.86 938.71  17.37  INDEF     105.7327   INDEF      40.125 
+star4            star4.fits AL  INDEF       1    BNS/gau   3.887   0.88 945.60  23.24  INDEF     211.3534   INDEF      30.633 
+star4            star4.fits AM  INDEF       1    BNS/gau   4.408   0.53 656.00  8.04   INDEF     239.7064   INDEF      57.009 
+star4            star4.fits AN  INDEF       1    BNS/gau   2.534   0.23 460.02  3.07   INDEF     137.7821   INDEF      88.684 
+star4            star4.fits AO  INDEF       1    BNS/gau   1.204   0.87 1047.43 25.51  INDEF     65.4681    INDEF      31.030 
+#  Velocity Dispersion = 54.33 Km/sec/pixel     Rebinned WPC = 7.86991E-5
+star4            star4.fits AP  INDEF       1    BNS/gau   0.016   0.48 543.99  10.37  INDEF     0.8516     INDEF      37.590 
