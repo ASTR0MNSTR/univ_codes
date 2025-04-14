@@ -1,0 +1,30 @@
+#K IRAF       = NOAO/IRAF V2.16.1              version   
+#K USER       = ryzhov                         name      
+#K HOST       = w15.laboratory                 computer  
+#K DATE       = 2025-04-14                     yyyy-mm-dd
+#K TIME       = 13:21:21                       hh:mm:ss  
+#K PACKAGE    = rv                             name      
+#K TASK       = fxcor                          name      
+# 
+#T Template ' A' -- Object = '32Vul_K5III'                                   \*
+#                   Image  = '32Vul_K5III.fits'                Vhelio = INDEF
+#T Template ' B' -- Object = 'HD142574_M0'                                   \*
+#                   Image  = 'HD142574_M0.fits'                Vhelio = INDEF
+#T Template ' C' -- Object = 'HD188001_O8I'                                  \*
+#                   Image  = 'HD188001_O8I.fits'               Vhelio = INDEF
+#T Template ' D' -- Object = 'HD196867_B9IV'                                 \*
+#                   Image  = 'HD196867_B9IV.fits'              Vhelio = INDEF
+#T Template ' E' -- Object = 'HD886_B2IV'                                    \*
+#                   Image  = 'HD886_B2IV.fits'                 Vhelio = INDEF
+# 
+#  Velocity Dispersion = 54.42 Km/sec/pixel     Rebinned WPC = 7.88318E-5
+# 
+#N OBJECT        IMAGE     REF   HJD       AP    CODES     SHIFT   HGHT FWHM    TDR    VOBS      VREL       VHELIO     VERR
+#U name          image           days            cfr/fun   pixel                       km/s      km/s       km/s       km/s
+#
+#  Velocity Dispersion = 54.42 Km/sec/pixel     Rebinned WPC = 7.88318E-5
+star3            star3.fits  A  INDEF       1    BNS/gau   0.604   0.77 709.02  11.72  INDEF     32.8593    INDEF      43.768 
+star3            star3.fits  B  INDEF       1    BNS/gau   1.456   0.62 1018.29 8.11   INDEF     79.2150    INDEF      87.792 
+star3            star3.fits  C  INDEF       1    BNS/gau   336.743 0.23 1539.13 3.01   INDEF     18896.322  INDEF      301.365
+star3            star3.fits  D  INDEF       1    BNS/gau   341.853 0.28 2217.62 3.03   INDEF     19192.031  INDEF      431.925
+star3            star3.fits  E  INDEF       1    BNS/gau   1061.36 0.24 885.32  2.99   INDEF      0.21246     INDEF      174.230
