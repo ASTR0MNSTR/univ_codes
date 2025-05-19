@@ -6,3 +6,5 @@ T0 = 1906.0056 (+2450000)
 P = 8.5365711 d
 
 HJD from fits files
+
+25th aperture

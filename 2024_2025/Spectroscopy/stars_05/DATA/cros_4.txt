@@ -12,8 +12,7 @@ star4            star4.fits  K  INDEF       1    BNS/gau   1.629   0.54 587.53  
 star4            star4.fits  L  INDEF       1    BNS/gau   -248.51 0.23 2140.60 2.57   INDEF     -13208.71  INDEF      471.302
 star4            star4.fits  M  INDEF       1    BNS/gau   -0.181  0.26 433.81  4.48   INDEF     -9.8656    INDEF      62.223 
 star4            star4.fits  N  INDEF       1    BNS/gau   -0.350  0.48 579.00  6.75   INDEF     -19.0333   INDEF      58.671 
-star4            star4.fits  O  INDEF       1    BNS/gau   INDEF   INDEF INDEF   INDEF  INDEF     INDEF      INDEF      INDEF  
-star4            star4.fits  P  INDEF       1    BNS/gau   1060.98 0.24 1613.28 2.09   INDEF      0.21213     INDEF      410.250
+star4            star4.fits  P  INDEF       1    BNS/gau   1060.98 0.24 1613.28 2.09   INDEF      0.21213   INDEF      410.250
 star4            star4.fits  Q  INDEF       1    BNS/gau   715.910 0.24 2541.30 2.16   INDEF     41554.504  INDEF      630.869
 star4            star4.fits  R  INDEF       1    BNS/gau   0.210   0.74 757.87  18.62  INDEF     11.4352    INDEF      30.336 
 star4            star4.fits  S  INDEF       1    BNS/gau   -0.563  0.62 1482.05 5.41   INDEF     -30.6283   INDEF      181.670
