@@ -127,7 +127,7 @@ A142103_Cf_14A_  achi140701.1130.ec.fits  A  INDEF       25   BNS/deb   -175.41 
 #U name          image           days            cfr/fun   pixel                       km/s      km/s       km/s       km/s
 #
 #  Velocity Dispersion = 0.43 Km/sec/pixel     Rebinned WPC = 6.20430E-7
-A142103_Cf_14B_  achi140730.1124.ec.fits  A  INDEF       25   BNS/deb   -161.02 0.21 22.60   20.05  INDEF     -68.9532   INDEF      0.843  
+A142103_Cf_14B_  achi140730.1124.ec.fits  A  INDEF       25   BNS/deb   -161.02 0.21 22.60   20.05  INDEF     -75.1153   INDEF      0.843  
 A142103_Cf_14B_  achi140730.1124.ec.fits  A  INDEF       25   BNS/deb   -55.562 0.19 27.00   17.66  INDEF     -23.7950   INDEF      1.137  
 #K IRAF       = NOAO/IRAF V2.16.1              version   
 #K USER       = ryzhov                         name      
