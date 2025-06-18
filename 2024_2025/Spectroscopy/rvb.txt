@@ -1,0 +1,67 @@
+#K IRAF       = NOAO/IRAF V2.16.1              version   
+#K USER       = ryzhov                         name      
+#K HOST       = w15.laboratory                 computer  
+#K DATE       = 2025-06-18                     yyyy-mm-dd
+#K TIME       = 14:07:55                       hh:mm:ss  
+#K PACKAGE    = rv                             name      
+#K TASK       = fxcor                          name      
+# 
+#T Template ' A' -- Object = ''                                              \*
+#                   Image  = 'template.fits'                   Vhelio = INDEF
+# 
+#  Velocity Dispersion = 1.86 Km/sec/pixel     Rebinned WPC = 2.69914E-6
+# 
+#N OBJECT        IMAGE     REF   HJD       AP    CODES     SHIFT   HGHT FWHM    TDR    VOBS      VREL       VHELIO     VERR
+#U name          image           days            cfr/fun   pixel                       km/s      km/s       km/s       km/s
+#
+                 gamPeg_2011-09-29_18-57-54.fits  A  5834.29845  10   BNS/deb   0.077   0.65 28.83   4.569E7 -1.0371   0.1434     0.1434     0.000  
+                 gamPeg_2011-09-29_19-08-24.fits  A  5834.30574  10   BNS/deb   -0.149  0.63 30.26   166.37 -1.4587   -0.2783    -0.2899    0.142  
+#K IRAF       = NOAO/IRAF V2.16.1              version   
+#K USER       = ryzhov                         name      
+#K HOST       = w15.laboratory                 computer  
+#K DATE       = 2025-06-18                     yyyy-mm-dd
+#K TIME       = 14:09:03                       hh:mm:ss  
+#K PACKAGE    = rv                             name      
+#K TASK       = fxcor                          name      
+# 
+#T Template ' A' -- Object = ''                                              \*
+#                   Image  = 'template.fits'                   Vhelio = INDEF
+# 
+#  Velocity Dispersion = 1.86 Km/sec/pixel     Rebinned WPC = 2.69914E-6
+# 
+#N OBJECT        IMAGE     REF   HJD       AP    CODES     SHIFT   HGHT FWHM    TDR    VOBS      VREL       VHELIO     VERR
+#U name          image           days            cfr/fun   pixel                       km/s      km/s       km/s       km/s
+#
+                 gamPeg_2011-09-29_18-57-54.fits  A  5834.29845  10   BNS/deb   -0.030  0.64 27.88   4.543E7 -1.2362   -0.0558    -0.0558    0.000  
+                 gamPeg_2011-09-29_19-08-24.fits  A  5834.30574  10   BNS/deb   -0.162  0.62 28.25   164.08 -1.4831   -0.3027    -0.3143    0.134  
+                 gamPeg_2011-09-29_19-19-00.fits  A  5834.31310  10   BNS/deb   -0.097  0.63 28.57   209.10 -1.3605   -0.1801    -0.2037    0.107  
+#  Velocity Dispersion = 1.86 Km/sec/pixel     Rebinned WPC = 2.69907E-6
+                 gamPeg_2011-09-29_19-33-37.fits  A  5834.32325  10   BNS/deb   0.097   0.62 27.95   169.03 -1.0001   0.1803     0.1392     0.129  
+                 gamPeg_2011-09-29_19-43-54.fits  A  5834.33039  10   BNS/deb   0.386   0.62 27.41   169.89 -0.4612   0.7192     0.6654     0.126  
+                 gamPeg_2011-09-29_19-54-18.fits  A  5834.33761  10   BNS/deb   0.452   0.61 26.91   156.58 -0.3374   0.8430     0.7760     0.134  
+#  Velocity Dispersion = 1.86 Km/sec/pixel     Rebinned WPC = 2.69877E-6
+                 gamPeg_2011-09-29_20-07-56.fits  A  5834.34708  10   BNS/gau   0.794   0.89 29.90   216.87 0.2980    1.4784     1.3935     0.108  
+                 gamPeg_2011-09-29_20-18-31.fits  A  5834.35443  10   BNS/gau   0.490   0.89 33.13   195.75 -0.2680   0.9124     0.8132     0.132  
+                 gamPeg_2011-09-29_20-29-08.fits  A  5834.36180  10   BNS/gau   0.653   0.88 34.13   203.07 0.0358    1.2162     1.1024     0.131  
+#  Velocity Dispersion = 1.86 Km/sec/pixel     Rebinned WPC = 2.69877E-6
+                 gamPeg_2011-09-29_20-42-33.fits  A  5834.37112  10   BNS/gau   1.619   0.86 31.87   170.14 1.8348    3.0152     2.8825     0.146  
+                 gamPeg_2011-09-29_20-53-08.fits  A  5834.37847  10   BNS/gau   1.737   0.86 32.15   182.65 2.0561    3.2366     3.0886     0.137  
+                 gamPeg_2011-09-29_21-03-28.fits  A  5834.38565  10   BNS/gau   1.755   0.85 32.35   190.94 2.0900    3.2704     3.1073     0.132  
+#  Velocity Dispersion = 1.86 Km/sec/pixel     Rebinned WPC = 2.69868E-6
+                 gamPeg_2011-09-29_21-31-12.fits  A  5834.40490  10   BNS/gau   0.665   0.86 34.93   169.84 0.0588    1.2392     1.0347     0.161  
+                 gamPeg_2011-09-29_21-41-43.fits  A  5834.41221  10   BNS/gau   0.890   0.87 31.67   170.12 0.4775    1.6580     1.4375     0.145  
+#  Velocity Dispersion = 1.86 Km/sec/pixel     Rebinned WPC = 2.69868E-6
+                 gamPeg_2011-09-29_21-55-59.fits  A  5834.42212  10   BNS/gau   0.666   0.88 30.14   184.43 0.0606    1.2410     0.9986     0.128  
+                 gamPeg_2011-09-29_22-07-07.fits  A  5834.42985  10   BNS/gau   0.297   0.88 30.07   189.57 -0.6276   0.5528     0.2932     0.124  
+                 gamPeg_2011-09-29_22-17-40.fits  A  5834.43717  10   BNS/gau   0.039   0.88 29.98   218.55 -1.1078   0.0726     -0.2033    0.107  
+                 gamPeg_2011-09-29_22-32-42.fits  A  5834.44761  10   BNS/gau   -0.235  0.88 30.04   161.66 -1.6183   -0.4379    -0.7371    0.145  
+                 gamPeg_2011-09-29_22-43-16.fits  A  5834.45495  10   BNS/gau   -0.354  0.88 30.07   174.61 -1.8402   -0.6598    -0.9754    0.134  
+                 gamPeg_2011-09-29_22-53-58.fits  A  5834.46238  10   BNS/gau   -0.345  0.88 30.02   200.37 -1.8225   -0.6421    -0.9743    0.117  
+#  Velocity Dispersion = 1.86 Km/sec/pixel     Rebinned WPC = 2.69862E-6
+                 gamPeg_2011-09-29_23-08-10.fits  A  5834.47224  10   BNS/gau   -0.272  0.88 29.90   206.07 -1.6878   -0.5073    -0.8614    0.113  
+                 gamPeg_2011-09-29_23-19-17.fits  A  5834.47996  10   BNS/gau   -0.056  0.88 29.82   194.25 -1.2851   -0.1047    -0.4757    0.120  
+                 gamPeg_2011-09-29_23-29-41.fits  A  5834.48719  10   BNS/gau   0.166   0.88 29.71   199.08 -0.8714   0.3090     -0.0777    0.117  
+#  Velocity Dispersion = 1.86 Km/sec/pixel     Rebinned WPC = 2.69853E-6
+                 gamPeg_2011-09-29_23-44-02.fits  A  5834.49715  10   BNS/gau   0.529   0.88 30.19   151.94 -0.1947   0.9857     0.5774     0.155  
+                 gamPeg_2011-09-29_23-54-35.fits  A  5834.50448  10   BNS/gau   0.797   0.87 30.41   177.00 0.3041    1.4845     1.0607     0.134  
+                 gamPeg_2011-09-30_00-05-06.fits  A  5834.51178  10   BNS/gau   0.836   0.87 31.86   175.43 0.3772    1.5576     1.1185     0.142  
