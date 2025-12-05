@@ -1,0 +1,109 @@
+My star is number 11
+CFHT - ESPADONS
+R ~ 80000
+
+1 - Balmer Series Teff connection. Model results. File: 01-balmer-ha-teff.png
+Modelling Cycle 1.
+                teff	    logg	      MH	   alpha	    vmic    vmac	   vsini	    limb	       R
+Solution:    6786.05	    3.50	    0.00	    0.00	    1.05    4.21	    1.60	    0.60	   80000
+Errors:        12.88	    0.00	    0.00	    0.00	    0.00    0.00	    0.00	    0.00	       0
+
+Calculation time:	0:0:1:4
+
+               DOF	   niter	nsynthesis	  wchisq	 rwchisq   chisq	  rchisq	     rms
+Stats:       13730	       3	      10	 2478.31	  0.1805   13.45	  0.0010	  0.0313
+Return code: 3
+
+Modelling Cycle 2.
+                teff	    logg	      MH	   alpha	    vmic	    vmac	   vsini	    limb	       R
+Solution:    6918.26	    4.44	    0.00	    0.00	    1.05	    4.21	    1.60	    0.60	   80000
+Errors:         4.19	    0.00	    0.00	    0.00	    0.00	    0.00	    0.00	    0.00	       0
+
+Calculation time:	0:0:1:8
+
+               DOF	   niter	nsynthesis	  wchisq	 rwchisq	   chisq	  rchisq	     rms
+Stats:       25244	       3	      10	15322.92	  0.6070	   65.05	  0.0026	  0.0508
+Return code: 2
+
+
+2 - logg → z wybranych linii
+
+2.1 Na doublet. Modelling Cycle 1.
+                teff	    logg	      MH	   alpha	    vmic	    vmac	   vsini	    limb	       R
+Solution:    6786.05	    4.79	    0.00	    0.00	    1.05	    4.21	    1.60	    0.60	   80000
+Errors:         0.00	    0.04	    0.00	    0.00	    0.00	    0.00	    0.00	    0.00	       0
+
+Calculation time:	0:0:0:4
+
+               DOF	   niter	nsynthesis	  wchisq	 rwchisq	   chisq	  rchisq	     rms
+Stats:        1432	       4	      10	  532.93	  0.3722	    2.97	  0.0021	  0.0455
+Return code: 1
+
+2.2 Mg triplet. Modelling Cycle 1.
+                teff	    logg	      MH	   alpha	    vmic	    vmac	   vsini	    limb	       R
+Solution:    6786.05	    4.22	    0.00	    0.00	    1.05	    4.21	    1.60	    0.60	   80000
+Errors:         0.00	    0.03	    0.00	    0.00	    0.00	    0.00	    0.00	    0.00	       0
+
+Calculation time:	0:0:0:4
+
+               DOF	   niter	nsynthesis	  wchisq	 rwchisq	   chisq	  rchisq	     rms
+Stats:        2999	       2	       8	 2179.15	  0.7266	   10.49	  0.0035	  0.0591
+Return code: 1
+
+2.3 Na doublet - bez czubka. Modelling Cycle 1.
+                teff	    logg	      MH	   alpha	    vmic	    vmac	   vsini	    limb	       R
+Solution:    6786.05	    4.95	    0.00	    0.00	    1.05	    4.21	    1.60	    0.60	   80000
+Errors:         0.00	    0.07	    0.00	    0.00	    0.00	    0.00	    0.00	    0.00	       0
+
+Calculation time:	0:0:0:5
+
+               DOF	   niter	nsynthesis	  wchisq	 rwchisq	   chisq	  rchisq	     rms
+Stats:          85	       4	      13	  212.75	  2.5029	    1.06	  0.0125	  0.1111
+Return code: 1
+
+#NEW DAY - NEW TYPE OF MODELLING
+#THIS TIME I MODELLED HALPHA WITH CROPPING THE ABSORPTION LINES
+1. HA with the cropped strong absorption lines
+                teff        logg              MH           alpha            vmic            vmac           vsini        limb        R
+Solution:    6728.56        4.00            0.00            0.00            1.05            4.21           10.00        0.60    80000
+Errors:        15.05        0.00            0.00            0.00            0.00            0.00            0.00        0.00        0
+
+Calculation time:       0:0:0:29
+
+               DOF         niter        nsynthesis        wchisq         rwchisq           chisq          rchisq         rms
+Stats:        4566             4              12          976.60          0.2139            3.83          0.0008      0.0290
+Return code: 3
+
+2. HB with the cropped strong absorption lines
+                teff        logg              MH           alpha            vmic            vmac           vsini        limb        R
+Solution:    6649.12        4.00            0.00            0.00            1.05            4.21           10.00        0.60    80000
+Errors:        12.03        0.00            0.00            0.00            0.00            0.00            0.00        0.00        0
+
+Calculation time:       0:0:0:19
+
+               DOF         niter        nsynthesis        wchisq         rwchisq           chisq          rchisq         rms
+Stats:        2055             3               8          385.73          0.1877            2.31          0.0011      0.0335
+Return code: 3
+
+3. HG with the cropped strong absorption lines
+                teff        logg              MH           alpha            vmic            vmac           vsini        limb        R
+Solution:    6664.71        4.00            0.00            0.00            1.05            4.21           10.00        0.60    80000
+Errors:        13.64        0.00            0.00            0.00            0.00            0.00            0.00        0.00        0
+
+Calculation time:       0:0:0:19
+
+               DOF         niter        nsynthesis        wchisq         rwchisq           chisq          rchisq         rms
+Stats:        1784             2               6          445.21          0.2496            2.60          0.0015      0.0382
+Return code: 1
+
+4. HD with the cropped strong absorption lines
+                teff        logg              MH           alpha            vmic            vmac           vsini        limb        R
+Solution:    6774.51        4.00            0.00            0.00            1.05            4.21            1.60        0.60    80000
+Errors:        20.20        0.00            0.00            0.00            0.00            0.00            0.00        0.00        0
+
+Calculation time:       0:0:0:24
+
+               DOF         niter        nsynthesis        wchisq         rwchisq           chisq          rchisq         rms
+Stats:         853             3               8          657.25          0.7705            3.49          0.0041      0.0639
+Return code: 2
+

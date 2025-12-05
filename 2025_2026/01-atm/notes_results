@@ -1,0 +1,18 @@
+0. SNR
+
+segment 664 - 680 nm
+box size 10 - 220.04
+box size 20 - 163.28
+box size 30 - 147.86
+
+1. Balmer Series and Teff. Results for KIC11.txt
+- Modelling of Halpha with cropped absorption lines in wings
+    6728.56 +- 15.05
+- Modelling of Hbeta with cropped absorption lines in wings
+    6649.12 +- 12.03
+- Modelling of Hgamma with cropped absorption lines in wings
+    6664.71 +- 13.64
+- Modelling of Hdelta with cropped absorption lines in wings
+    6774.51 +- 20.20
+    
+
