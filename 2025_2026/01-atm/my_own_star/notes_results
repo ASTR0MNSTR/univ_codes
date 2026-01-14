@@ -23,4 +23,51 @@ Weighted average + error = 6687.86±7.23
 - Modelling of Mg I b (not matched peaks, but wings went pretty well)
     4.02 +- 0.02
     
-474.5 nm
+3. Results of the Fe fitting
+
+                teff        logg              MH           alpha            vmic            vmac           vsini            limb        R
+Solution:    6814.67        4.16           -0.14            0.00            2.04            5.07           13.75            0.60    80000
+Errors:         0.00        0.00            0.00            0.00            0.00            0.33            0.00            0.00        0
+
+Calculation time:       0:0:0:23
+
+               DOF         niter        nsynthesis        wchisq         rwchisq           chisq          rchisq             rms
+Stats:        8669             4               9          639.85          0.0738            3.59          0.0004          0.0204
+
+
+4. Abundances
+
+
+                   C        A(C)           [C/H]          [C/Fe]
+Abundances:    -3.72        8.32           -0.11            0.03
+Ab. errors:     0.06        0.06            0.06            0.06
+
+                  Mg       A(Mg)          [Mg/H]         [Mg/Fe]
+Abundances:    -4.72        7.31           -0.28           -0.14
+Ab. errors:     0.03        0.03            0.03            0.03
+
+                  Na       A(Na)          [Na/H]         [Na/Fe]
+Abundances:    -5.88        6.15           -0.08            0.06
+Ab. errors:     0.05        0.05            0.05            0.05
+
+                  Si       A(Si)          [Si/H]         [Si/Fe]
+Abundances:    -4.51        7.52            0.02            0.16
+Ab. errors:     0.04        0.04            0.04            0.04
+
+                   S        A(S)           [S/H]          [S/Fe]
+Abundances:    -4.87        7.17            0.05            0.19
+Ab. errors:     0.15        0.15            0.15            0.15
+
+                  Ca       A(Ca)          [Ca/H]         [Ca/Fe]
+Abundances:    -5.71        6.32           -0.01            0.13
+Ab. errors:     0.02        0.02            0.02            0.02
+
+To-do:
+
+- [ ] Ti
+- [ ] V
+- [ ] Cr
+- [ ] Mn
+- [ ] Fe (from your lines)
+- [ ] Ni
+- [ ] Cu
