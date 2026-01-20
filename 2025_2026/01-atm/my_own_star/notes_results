@@ -64,10 +64,10 @@ Ab. errors:     0.02        0.02            0.02            0.02
 
 To-do:
 
-- [ ] Ti
-- [ ] V
-- [ ] Cr
-- [ ] Mn
-- [ ] Fe (from your lines)
+- [x] Ti
+- [x] V
+- [x] Cr
+- [x] Mn
+- [x] Fe (from your lines)
 - [ ] Ni
 - [ ] Cu
