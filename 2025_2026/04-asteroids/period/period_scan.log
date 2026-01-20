@@ -1,15 +1,14 @@
-23 23.5   period interval (hrs) 
-0.1  the weight factor for conv. reg.
-6 6  degree and order of the Laplace series
-8  nr. of triangulation rows per octant
-0.5 0.1 -0.5  initial guesses for phase funct. params. (0,0,0)
-0.1  initial Lambert coeff. (L-S=1) (0)
-50  stop condition
-10  minimum number of iterations
-
-The used epoch of zero time  2457387.000000
-
-period   rms      chi2      iter. dark area %
+#23 23.5   period interval (hrs) 
+#0.1  the weight factor for conv. reg.
+#6 6  degree and order of the Laplace series
+#8  nr. of triangulation rows per octant
+#0.5 0.1 -0.5  initial guesses for phase funct. params. (0,0,0)
+#0.1  initial Lambert coeff. (L-S=1) (0)
+#50  stop condition
+#10  minimum number of iterations
+#
+#The used epoch of zero time  2457387.000000
+#period   rms      chi2      iter. dark area %
 23.000870 0.017266 0.485359  50    0.6
 23.003010 0.017659 0.507667  50    0.3
 23.007708 0.017768 0.513942  50    0.3
