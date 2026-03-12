@@ -2,11 +2,12 @@
 # kolumna 3 - klasa jasnosci Ia
 # kolumna 4 - klasa jasnosci V
 # kolumna 5 - klasa jasnosci Ia
-
+#
 #    (B-V)         (U-B)
 #-------------------------- 
-    V      Ia    V     Ia
----------------------------
+#    V      Ia    V     Ia
+#---------------------------
+Type B-V_V B-V_Ia U-B_V U-B_Ia
 O5 -0.33 -0.31 -1.19 -1.17
  6 -0.33 -0.31 -1.17 -1.16
  7 -0.32 -0.31 -1.15 -1.14
