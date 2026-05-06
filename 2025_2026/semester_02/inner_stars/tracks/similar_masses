@@ -1,0 +1,31 @@
+# "A Modern Mean Dwarf Stellar Color and Effective Temperature Sequence"
+# http://www.pas.rochester.edu/~emamajek/EEM_dwarf_UBVIJHK_colors_Teff.txt
+# Eric Mamajek
+# Version 2022.04.16
+#
+# Much of the original content of this table was incorporated into
+# Table 5 of Pecaut & Mamajek (2013, ApJS, 208, 9;
+# http://adsabs.harvard.edu/abs/2013ApJS..208....9P), so that
+# reference should be cited until an updated version of the table is
+# published.  Parts of this table for A/F/G stars also appeared in
+# Table 3 of Pecaut, Mamajek, & Bubar (2012, ApJ 756, 154).  For
+# example, Table 5 of Pecaut & Mamajek did not include the absolute
+# magnitude and luminosity estimates, nor the properties of dwarfs of
+# types L, T, Y, or O3-O8.
+# The author's notes on standard stars and mean parameters for stars
+# for each dwarf spectral type can be found in the directory at:
+# http://www.pas.rochester.edu/~emamajek/spt/. See further notes and
+# caveats after the table. Colors are based on Johnson UBV, Tycho
+# BtVt, Cousins RcIc, Gaia DR2 G/Bp/Rp, Sloan izY, 2MASS JHKs,
+# MKO JK (for Y dwarfs), WISE W1/W2/W3/W4 photometry.
+# G-V color is Gaia DR2 G - Johnson V.
+#
+SpT   Teff  logT   BCv    logL   Mbol R_Rsun   Mv    B-V    Bt-Vt  G-V    Bp-Rp  G-Rp   M_G    b-y    U-B    V-Rc   V-Ic   V-Ks   J-H    H-Ks   M_J    M_Ks   Ks-W1   W1-W2  W1-W3  W1-W4   g-r   i-z  z-Y  Msun  SpT_1   
+O9V    33300 4.522 -3.11   4.82  -7.31  7.72   -4.20 -0.312  ...    ...    ...    ...    ...   -0.127 -1.110  ...   -0.369 -1.000 -0.164 -0.071 -3.44  -3.20   ...     ...    ...    ...    -0.620 ...  ...  20.2  O9V   
+B0.5V  29000 4.462 -2.83   4.43  -6.33  6.48   -3.50 -0.289  ...    ...    ...    ...    ...   -0.120 -1.030  ...   -0.338 -0.913 -0.153 -0.063 -2.80  -2.587  0.017   ...    ...    ...    -0.540 ...  ...  14.8  B0.5V 
+B2V    20600 4.314 -2.03   3.43  -3.83  4.06   -1.80 -0.215 -0.219 -0.008  ...    ...    ...   -0.094 -0.790 -0.094 -0.230 -0.602 -0.113 -0.032 -1.34  -1.198  0.023   ...    ...    ...    -0.475 ...  ...  7.3   B2V      
+B7V    14000 4.146 -1.05   2.48  -1.45  2.94   -0.40 -0.128 -0.129  0.012  ...    ...   -0.39  -0.062 -0.459 -0.058 -0.133 -0.325 -0.077 -0.004 -0.16  -0.075  0.031  -0.045 -0.117 -0.070  -0.360 ...  ...  3.92  B7V
+B9.5V  10400 4.017 -0.36   1.80   0.24  2.45    0.60 -0.050 -0.040  0.017 -0.087 -0.016  0.615 -0.021 -0.130 -0.017 -0.035 -0.048 -0.044  0.021  0.63   0.648  0.040  -0.044 -0.091 -0.043  -0.265 ...  ...  2.68  B9.5V 
+G2V    5770  3.761 -0.085  0.01   4.72  1.012   4.80  0.650  0.724 -0.165  0.823  0.459  4.635  ...    0.133  0.363  0.713  1.564  0.293  0.073  3.60   3.236  0.061  -0.050 -0.040 -0.016   0.476 ...  ...  1.00  G2V     
+K9V    3930  3.594 -1.07  -1.10   7.49  0.608   8.56  1.400  1.593 -0.66   1.79   0.90   8.03   ...    1.210  0.866  1.699  3.55   0.631  0.180  5.82   5.01   0.117   ...    ...    ...     1.320 ...  ...  0.59  K9V    
+M2.5V  3470  3.540 -1.78  -1.64   8.82  0.421  10.61  1.522  ...   -1.02   2.39   1.10   9.67   ...    1.175  1.041  2.306  4.43   0.589  0.244  7.01   6.18   0.145   ...    ...    ...      ...  0.57 ...  0.40  M2.5V
